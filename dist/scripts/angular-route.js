@@ -3739,6 +3739,10 @@ var quizApp = angular.module("angularQuizcatApp", ["quizcatServices"]).config(["
         .when("/logout", {
             templateUrl: "pages/login.html"
         })
+        .when("/login", {
+            templateUrl: 'views/quiz-list.html',
+            controller: 'QuizListCtrl'
+        })
         .otherwise({redirectTo: "/quizes"})
 }]);
 "use strict", quizApp.factory("questionModel", function () {

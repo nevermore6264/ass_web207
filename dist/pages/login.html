@@ -3,7 +3,7 @@
     <div class="col-md-3"></div>
     <div id="login-row" class="row col-md-6" style="background-color: #bbbbbb">
         <div id="login-box" class="col-md-12">
-            <form id="login-form" class="form" action="" method="post">
+            <form id="login-form" class="form" action="" onsubmit="return login()" method="post">
                 <h3 class="text-center text-info">Login</h3>
                 <div class="form-group">
                     <label for="username" class="text-info">Email:</label><br>
@@ -18,9 +18,34 @@
                             id="remember-me" name="remember-me" type="checkbox"></span></label><br>
                 </div>
                 <div class="form-group" style="text-align: center">
-                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Login">
+                    <button type="submit" name="submit" class="btn btn-info btn-md"><a href="#/login">Login</a>
+                    </button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<script>
+    function login() {
+        // Bước 1: Lấy giá trị của username và password
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        // Bước 2: Kiểm tra dữ liệu hợp lệ hay không
+        if (username == '') {
+            username.focus();
+            alert('username is invalid');
+        } else if (password == '') {
+            alert('password is invalid');
+        } else {
+            if(username === "admin" && password === "admin"){
+                return true;
+            }else{
+                alert('Login fail');
+            }
+
+        }
+
+        return false;
+    }
+</script>

@@ -33,6 +33,13 @@ quizApp.config(['$routeProvider', function ($routeProvider) {
         .when("/infomation", {
             templateUrl: "pages/introduction.html"
         })
+        .when("/logout", {
+            templateUrl: "pages/login.html"
+        })
+        .when("/login", {
+            templateUrl: 'views/quiz-list.html',
+            controller: 'QuizListCtrl'
+        })
         .otherwise({
             redirectTo: '404.html'
         });
