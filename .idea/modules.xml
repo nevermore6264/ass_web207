@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Ass_Web207_Group1.iml" filepath="$PROJECT_DIR$/.idea/Ass_Web207_Group1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/angular-quizcat.iml" filepath="$PROJECT_DIR$/.idea/angular-quizcat.iml" />
     </modules>
   </component>
 </project>
