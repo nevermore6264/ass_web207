@@ -33,6 +33,9 @@ quizApp.config(['$routeProvider', function ($routeProvider) {
         .when("/logout", {
             templateUrl: "pages/login.html"
         })
+        .when("/infomation", {
+            templateUrl: "pages/introduction.html"
+        })
         .otherwise({
             redirectTo: '404.html'
         });

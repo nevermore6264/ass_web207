@@ -44,64 +44,64 @@
       "correctAnswer": 1
     },
     {
-      "question": "Câu nào là đúng khi đề cập đến Service?",
+      "question": "Phương thức nào của WebSettings để cho phép WebView hỗ trợ JavaScript?",
       "answers": [
-        "Các ứng dụng khác nhau không thể truy cập đến các Service của chính nó",
-        "Tất cả phương án đều đúng",
-        "Lớp Service luôn luôn được truy cập bởi tất cả ứng dụng Android khác cài trên thiết bị",
-        "Service có thể chạy nền vô hạn kể cả khi thành phần khởi tạo Service đã bị hủy"
+        "setJavaScriptEnabled(false)",
+        "setJavaScript(true)",
+        "setJavaScriptEnable(true)",
+        "setJavaScriptEnabled(true)"
       ],
       "correctAnswer": 3
     },
     {
-      "question": "Trong IntentService, onBind mặc định trả lại giá trị nào?",
+      "question": "Khi thời gian kết nối đến một URL quá timeout, phương thức getInputStream() sẽ đưa ra ngoại lệ nào?",
       "answers": [
-        "-1",
-        "null",
-        "0",
-        "\"\""
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Phương thức stopSelf dùng để làm gì?",
-      "answers": [
-        "Dừng thông báo notification tới người dùng",
-        "Dừng chương trình",
-        "Dừng kết nối Service với Sqlite",
-        "Dừng Service"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "question": "Bạn nên giải phóng tài nguyên mà Service sử dụng trong phương thức nào?",
-      "answers": [
-        "onPause",
-        "pauseService",
-        "onDestroy",
-        "startService"
+        "java.net.TimeoutException",
+        "java.net.SocketException",
+        "java.net.SocketTimeoutException",
+        "java.net.SocketTimeout"
       ],
       "correctAnswer": 2
     },
     {
-      "question": "Phương thức onStartCommand được gọi khi nào?",
+      "question": "Chương trình sử dụng WebView phải có quyền gì?",
       "answers": [
-        "Khi phương thức bindService được gọi",
-        "Khi phương thức stopSelf được gọi",
-        "Khi phương thức onBind được gọi",
-        "Khi phương thức startService được gọi"
+        "android.permission.AUTHENTICATE_ACCOUNTS",
+        "android.permission.BIND_APPWIDGET",
+        "android.permission.INTERNET",
+        "android.permission.BIND_INPUT_METHOD"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 0
     },
     {
-      "question": "Để hủy Service dùng phương thức nào?",
+      "question": "Để tải thông tin qua HTTP, chúng ta phải làm gì?",
       "answers": [
-        "PauseService",
-        "StopService",
-        "PauseServices",
-        "StopServices"
+        "Sử dụng HttpGet",
+        "Không thể tải thông tin qua HTTP",
+        "Sử dụng thư viện chuẩn của Java",
+        "Sử dụng URLRequesting"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "URI nào được sử dụng để lấy bookmark của trình duyệt?",
+      "answers": [
+        "content://firefox/bookmarks",
+        "content://browser/bookmarks",
+        "content://chrome/bookmarks",
+        "content://safari/bookmarks"
       ],
       "correctAnswer": 1
+    },
+    {
+      "question": "Trong SQLiteOpenHelper, phương thức nào được gọi khi cơ sở dữ liệu được tạo ra lần đầu tiên?",
+      "answers": [
+        "onCreate",
+        "onUpgrade",
+        "onResume",
+        "onOpen"
+      ],
+      "correctAnswer": 0
     }
   ]
 }
