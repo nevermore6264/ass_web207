@@ -1,0 +1,107 @@
+{
+  "id": "ADAV",
+  "name": "Lập trình Android nâng cao",
+  "created": "2019-05-14",
+  "questions": [
+    {
+      "question": "Có mấy loại Service?",
+      "answers": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Trong IntentService, phương thức onHandlerIntent sẽ được tự động gọi trong phương thức nào?",
+      "answers": [
+        "onServiceConnected",
+        "onServiceDisConnected",
+        "onStartCommand",
+        "onBind"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Khi nào phương thức ServiceConnection.onServiceConnected được gọi?",
+      "answers": [
+        "Sau khi một thành phần gọi Context.startService()",
+        "Sau khi một thành phần gọi Context.bindService()",
+        "Sau khi BroadcastReceiver nhận một Intent được gửi bởi Service",
+        "Khi một Service gọi Context.startActivity()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Phương thức Service.stopSelf(int startId) có tham số kiểu int. Tham số này dùng để làm gì",
+      "answers": [
+        "Tham số miêu tả số miliseconds bị trì hoãn trước khi Service bị hủy",
+        "Là start identifier gần nhất nhận được bởi lời gọi onStart(Intent, int)",
+        "Được sử dụng để dừng Service nếu Service đang chạy trong process id với process id bằng giá trị startid",
+        "Nếu startId khác 0, Service sẽ bị hủy một cách vô điều kiện"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Câu nào là đúng khi đề cập đến Service?",
+      "answers": [
+        "Các ứng dụng khác nhau không thể truy cập đến các Service của chính nó",
+        "Tất cả phương án đều đúng",
+        "Lớp Service luôn luôn được truy cập bởi tất cả ứng dụng Android khác cài trên thiết bị",
+        "Service có thể chạy nền vô hạn kể cả khi thành phần khởi tạo Service đã bị hủy"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Trong IntentService, onBind mặc định trả lại giá trị nào?",
+      "answers": [
+        "-1",
+        "null",
+        "0",
+        "\"\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Phương thức stopSelf dùng để làm gì?",
+      "answers": [
+        "Dừng thông báo notification tới người dùng",
+        "Dừng chương trình",
+        "Dừng kết nối Service với Sqlite",
+        "Dừng Service"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Bạn nên giải phóng tài nguyên mà Service sử dụng trong phương thức nào?",
+      "answers": [
+        "onPause",
+        "pauseService",
+        "onDestroy",
+        "startService"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Phương thức onStartCommand được gọi khi nào?",
+      "answers": [
+        "Khi phương thức bindService được gọi",
+        "Khi phương thức stopSelf được gọi",
+        "Khi phương thức onBind được gọi",
+        "Khi phương thức startService được gọi"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Để hủy Service dùng phương thức nào?",
+      "answers": [
+        "PauseService",
+        "StopService",
+        "PauseServices",
+        "StopServices"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

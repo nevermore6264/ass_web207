@@ -1,0 +1,107 @@
+{
+  "id": "ADBS",
+  "name": "Lập trình Android cơ bản",
+  "created": "2019-04-14",
+  "questions": [
+    {
+      "question": "Điều khiển được sử dụng để hiển thị nội dụng trang web trong ứng dụng Android?",
+      "answers": [
+        "Button",
+        "WebView",
+        "Spinner",
+        "EditText"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Đối với URLConnection, sử dụng phương thức nào để thiết lập timeout cho connection?",
+      "answers": [
+        "setURLTimeout()",
+        "setInternetTimeout()",
+        "setTimeout()",
+        "setConnectTimeout()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Sử dụng lớp nào để truy cập và thay đổi thông tin trên trình duyệt mặc định của hệ điều hành Android?",
+      "answers": [
+        "WebClient",
+        "WebSafariClient",
+        "WebFirefoxClient",
+        "WebViewClient"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Câu nào là sai đối với WebView?",
+      "answers": [
+        "Không có widget cho brownser activity",
+        "Không thể sử dụng tag trong XML layout",
+        "Click vào link sẽ gọi trình duyệt",
+        "Có thể sử dụng tag trong XML layout"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Câu nào là đúng khi đề cập đến Service?",
+      "answers": [
+        "Các ứng dụng khác nhau không thể truy cập đến các Service của chính nó",
+        "Tất cả phương án đều đúng",
+        "Lớp Service luôn luôn được truy cập bởi tất cả ứng dụng Android khác cài trên thiết bị",
+        "Service có thể chạy nền vô hạn kể cả khi thành phần khởi tạo Service đã bị hủy"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Trong IntentService, onBind mặc định trả lại giá trị nào?",
+      "answers": [
+        "-1",
+        "null",
+        "0",
+        "\"\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Phương thức stopSelf dùng để làm gì?",
+      "answers": [
+        "Dừng thông báo notification tới người dùng",
+        "Dừng chương trình",
+        "Dừng kết nối Service với Sqlite",
+        "Dừng Service"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Bạn nên giải phóng tài nguyên mà Service sử dụng trong phương thức nào?",
+      "answers": [
+        "onPause",
+        "pauseService",
+        "onDestroy",
+        "startService"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Phương thức onStartCommand được gọi khi nào?",
+      "answers": [
+        "Khi phương thức bindService được gọi",
+        "Khi phương thức stopSelf được gọi",
+        "Khi phương thức onBind được gọi",
+        "Khi phương thức startService được gọi"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Để hủy Service dùng phương thức nào?",
+      "answers": [
+        "PauseService",
+        "StopService",
+        "PauseServices",
+        "StopServices"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

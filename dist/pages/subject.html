@@ -1,0 +1,29 @@
+<div ng-controller="hello">
+    <form class="form-inline">
+        <div class="form-group">
+            <label>Search By Name</label>
+            <input type="text" ng-model="search" class="form-control" placeholder="Search">
+        </div>
+    </form>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            List Subject
+        </div>
+        <table class="table table-bordered table-condensed">
+            <thead>
+            <tr>
+                <th><a href="#" ng-click="sortBy('Id')">Id</a></th>
+                <th><a href="#" ng-click="sortBy('Name')">Subject Name</a></th>
+                <th><a href="#">Logo</a></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="p in products|orderBy:'Name'|filter:search|limitTo:5:begin">
+                <td>{{p.Id}}</td>
+                <td>{{p.Name}}</td>
+                <td><img ng-src="images/logos/{{p.Logo}}" style="width: 40px;height:40px;"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

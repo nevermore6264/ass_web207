@@ -1,0 +1,31 @@
+<form class="quiz-list-controls form-horizontal clearfix">
+    <div class="form-group col-xs-1"></div>
+
+    <div class="form-group col-xs-4">
+        <label>Search By Name</label>
+        <input id="inputSearch" type="text" ng-model="query" class="form-control" placeholder="Search">
+    </div>
+
+    <div class="form-group col-xs-1"></div>
+
+    <div class="form-group col-xs-4">
+        <label class="" for="inputOrderBy">Sort by</label>
+        <select class="form-control" id="inputOrderBy" ng-model="orderProp">
+            <option value="name">Alphabetical</option>
+            <option value="created">Newest</option>
+        </select>
+    </div>
+
+    <div class="form-group col-xs-1"></div>
+
+</form>
+
+
+<ul class="quizes" style="list-style-type: none">
+    <li ng-repeat="quiz in quizes | filter:query | orderBy:orderProp" class="well">
+        <a href="#/quiz/{{quiz.id}}">{{quiz.name}}</a>
+        <span style="text-align: right"
+              class="quiz-list-date muted">Created {{quiz.created.format('MMM D, YYYY')}}</span>
+        <p ng-bind-html-unsafe="quiz.snippet"></p>
+    </li>
+</ul>
