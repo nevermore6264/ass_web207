@@ -3730,9 +3730,6 @@ var quizApp = angular.module("angularQuizcatApp", ["quizcatServices"]).config(["
         .when("/info", {
             templateUrl: "pages/info_user.html"
         })
-        .when("/subject", {
-            templateUrl: "pages/subject.html"
-        })
         .when("/faq", {
             templateUrl: "pages/faq.html"
         })

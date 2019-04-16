@@ -1,0 +1,107 @@
+{
+  "id": "ADTE",
+  "name": "Kiểm thử và triển khai ứng dụng Android",
+  "created": "2019-05-12",
+  "questions": [
+    {
+      "question": "Kiểm thử nào không nằm trong kiểm thử hệ thống?",
+      "answers": [
+        "Installation tests",
+        "Performance tests",
+        "GUI tests",
+        "Unit test"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Kiểm thử nào được sử dụng để kiểm thử hoạt động của các thành phần khi chúng làm việc chung với nhau?",
+      "answers": [
+        "Kiểm thử đơn vị",
+        "Kiểm thử tích hợp",
+        "Kiểm thử chấp nhận",
+        "Kiểm thử giao diện"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Trong JUnit, phương thức nào được sử dụng để kiểm tra một giá trị có phải Null hay không?",
+      "answers": [
+        "confirmNull",
+        "assertNulls",
+        "confirmNulls",
+        "assertNull"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Trong JUnit test case, phương thức nào được sử dụng để tạo đối tượng và khởi tạo giá trị cho các đối tượng?",
+      "answers": [
+        "tearingDown()",
+        "setUp()",
+        "settingUp()",
+        "tearDown()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Trong JUnit, phương thức nào được sử dụng để so sánh hai giá trị có bằng nhau hay không?",
+      "answers": [
+        "assertEqual",
+        "assertEquals",
+        "confirmEqual",
+        "confirmEquals"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Phương thức nào được chạy trước tất cả test case?",
+      "answers": [
+        "tearDown()",
+        "setUp()",
+        "settingUp()",
+        "settingUp()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Kiểm thử đơn vị được thực hiện bởi ai trong nhóm phát triển?",
+      "answers": [
+        "Tester",
+        "QA",
+        "Lập trình viên",
+        "Product Owner"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Thư viện nào hỗ trợ kiểm thử giao diện tự động?",
+      "answers": [
+        "uiautomation",
+        "uiautomating",
+        "uiautomate",
+        "uiautomator"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Phải bổ sung thư viện Junit nào để có thể kiểm thử được giao diện?",
+      "answers": [
+        "Junit1",
+        "Junit5",
+        "Junit2",
+        "Junit3"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question":  "Để kiểm thử giao diện trên Android sử dụng uiautomator, phải tạo project kiểu gì?",
+      "answers": [
+        "Android Project",
+        "Java Project",
+        "Java Testing Project",
+        "Android Testing Project"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

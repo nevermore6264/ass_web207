@@ -24,9 +24,6 @@ quizApp.config(['$routeProvider', function ($routeProvider) {
         .when("/info", {
             templateUrl: "pages/info_user.html"
         })
-        .when("/subject", {
-            templateUrl: "pages/subject.html"
-        })
         .when("/faq", {
             templateUrl: "pages/faq.html"
         })
@@ -53,12 +50,3 @@ quizApp.run(function ($rootScope) {
         alert("Có lỗi")
     });
 })
-
-quizApp.controller("hello", function ($scope, $http, $location) {
-    $scope.products = list;
-    $scope.prop = "Name";
-    $scope.sortBy = function (prop) {
-        $scope.prop = prop;
-        $location.path('/subject')
-    };
-});
