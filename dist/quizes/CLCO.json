@@ -1,0 +1,107 @@
+{
+  "id": "CLCO",
+  "name": "Điện toán đám mây",
+  "created": "2019-05-24",
+  "questions": [
+    {
+      "question": "Dịch vụ Amazon Elastic Compute Cloud có chức năng chính là gì?",
+      "answers": [
+        "Hỗ trợ lưu trữ web",
+        "Hỗ trợ cập nhật dữ liệu",
+        "Hỗ trợ thay đổi kiến trúc mô hình cloud",
+        "Hỗ trợ truy xuất dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Câu nào là đúng đối với UDDI?",
+      "answers": [
+        "UDDI là cách viết khác của WSDL",
+        "UDDI tương tự như WSDL",
+        "UDDI cho phép ghi thông tin về doanh nghiệp và chi tiết sử dụng dịch vụ web.",
+        "UDDI không cho phép ghi thông tin về doanh nghiệp và chi tiết sử dụng dịch vụ web, nó chỉ được thực hiện qua WSDL"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Câu nào là đúng đối với WSDL?",
+      "answers": [
+        "WSDL Cho phép các nhà phát triển ghi thông tin dịch vụ web",
+        "WSDL kết nối trực tiếp với cơ sở dữ liệu SQLite và trả về kết quả cho người dùng",
+        "WSDL là cầu nối giữa người sử dụng với Database",
+        "WSDL không cho phép các nhà phát triển ghi thông tin dịch vụ web"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "WSDL là viết tắt của cụm từ nào?",
+      "answers": [
+        "Width Server Description Language",
+        "Width Services Description Language",
+        "Web Services Description Language",
+        "Web Server Description Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "API là viết tắt của cụm từ nào?",
+      "answers": [
+        "Application Private Interface",
+        "Application Programming Internet",
+        "Application Programming Interface",
+        "Application Public Interface"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Câu nào là đúng đối với API?",
+      "answers": [
+        "API cho phép các chương trình sử dụng có thể giao tiếp với nhau mà không cần sự tham gia của người dùng",
+        "API bản chất là một webserver",
+        "Để giao tiếp các chương trình sử dụng API nhất thiết phải có sự tham gia của người dùng",
+        "API bản chất là một không gian lưu trữ web"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Câu nào là đúng đối với SOAP?",
+      "answers": [
+        "Sử dụng để mã hóa thông điệp HTML",
+        "Sử dụng để duy trì kết nối internet",
+        "Sử dụng để mã hóa thông điệp XML",
+        "Sử dụng để mã hóa CSS"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Câu nào là đúng đối với API?",
+      "answers": [
+        "API là một file thư viện dạng dll",
+        "API là một file thực thi dạng exe",
+        "API không cho phép các nhà phát triển khác sử dụng để phát triển sản phẩm của riêng họ",
+        "API cho phép các nhà phát triển khác sử dụng để phát triển sản phẩm của riêng họ"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "AJAX sử dụng công nghệ nào?",
+      "answers": [
+        "Sử dụng các công nghệ GSM, CDMA, CSS",
+        "Sử dụng các công nghệ XHTML, CSS, JSON",
+        "Chỉ sử dụng duy nhất công nghệ CDMA",
+        "Sử dụng các công nghẹ XHTML, CMS, CRM, HTML, CSS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Bất lợi của AJAX là gì?",
+      "answers": [
+        "Có thể hiển thị lịch sử truy cập nhưng tối đa hiển thị là 10 bản ghi",
+        "Phải sử dụng nhiều đoạn kịch bản PHP",
+        "Phải sử dụng nhiều doạn kịch bản JavaScript",
+        "Không hiển thị lịch sử truy cập"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

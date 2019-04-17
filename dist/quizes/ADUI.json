@@ -1,0 +1,107 @@
+{
+  "id": "ADUI",
+  "name": "Thiết kế giao diện trên Android",
+  "created": "2019-05-04",
+  "questions": [
+    {
+      "question": "System Bar bao gồm các thành phần nào?",
+      "answers": [
+        "Navigation Bar",
+        "Status Bar",
+        "Notification Bar",
+        "Status Bar và Navigation Bar"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Câu nào sau đây đúng khi nói về Frame layout?",
+      "answers": [
+        "Frame layout là loại layout luôn lấy tọa độ gốc là top- left và nó xếp chồng view sau lên view trước",
+        "Frame layout sắp xếp các view ở chính xác tọa độ mong muốn thông qua các thuộc tính layout_x và layout_y",
+        "Frame layout sắp xếp các view theo hàng ngang hoặc hàng dọc, trong một cột hoặc một dòng",
+        "Frame layout sắp xếp các view thành các cột và dòng. Mỗi view trong 1 tableRow sẽ là 1 cột"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Trong android, interface được tạo từ các điều khiển gì?",
+      "answers": [
+        "View và View group",
+        "View",
+        "Button",
+        "View group"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Điều khiển nào sau đây không phải là một layout?",
+      "answers": [
+        "LeftAlignLayout",
+        "RelativeLayout",
+        "AbsoluteLayout",
+        "RelativeLayout"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Các điều khiển nào sau đây hiển thị trên Navigation Bar?",
+      "answers": [
+        "Recent",
+        "Tất cả phương án đều đúng",
+        "Home",
+        "Back"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Loại layout nào sau đây luôn dùng để gắn các control ở góc bên trái trên cùng màn hình và không cho phép thay đổi vị trí của các control?",
+      "answers": [
+        "Frame layout",
+        "Table layout",
+        "Relative layout",
+        "Linear layout"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Khi viết code, ta có thể thiết lập hướng các control trên Linear layout bằng hàm nào?",
+      "answers": [
+        "setVertical()",
+        "setHorizontal()",
+        "setDirection()",
+        "setOrientation()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Màn hình Home Screen là màn hình như thế nào?",
+      "answers": [
+        "Màn hình cung cấp cho người dùng truy cập đến các ứng dụng Mail được cài trên thiết bị",
+        "Chứa các folder, widgets hoặc các app shortcuts tùy theo ý người dùng",
+        "Màn hình cung cấp cho người dùng truy cập đến các ứng dụng đang chạy gần đây một cách nhanh nhất",
+        "Hiển thị toàn bộ ứng dụng được cài trên máy từ Amazon Store, và có thể đưa một ứng dụng bất kỳ ra màn hình Home"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Câu nào đúng khi nói về AutoCompleteTextView?",
+      "answers": [
+        "Vừa là layout vừa là widget",
+        "Thực chất là một Menu",
+        "Là một layout",
+        "Là một widget"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Đơn vị đo lường không dùng trong Android là?",
+      "answers": [
+        "Db/dip (Density- independent pixel)",
+        "Px (Pixel)",
+        "Ptx",
+        "Pt (Point)"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

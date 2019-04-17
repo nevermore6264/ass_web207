@@ -1,0 +1,107 @@
+{
+  "id": "DBAV",
+  "name": "SQL Server",
+  "created": "2019-09-14",
+  "questions": [
+    {
+      "question": "SQL sử dụng ngôn ngữ nào sau đây để truy vấn CSDL: A. SQL B. PL-SQL C. Transact-SQL",
+      "answers": [
+        "B Đúng",
+        "C Đúng",
+        "Cả A, B, C đều sai",
+        "A Đúng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Câu lệnh nào sau đây là câu lệnh điều khiển dữ liệu (DCL) A DENY B CREATE C GRANT D REVOKE",
+      "answers": [
+        "A, C, D đúng",
+        "B, C , D đúng",
+        "A, B , D đúng",
+        "A, B, C đúng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Để khởi động và dừng SQL Server sử dụng công cụ nào dưới đây:",
+      "answers": [
+        "SQL Server Start/Stop Manager",
+        "SQL Server Configuration Management",
+        "SQL Server Management Studio",
+        "SQL Server Configuration Manager"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Các ứng dụng nào sau đây có thể truy cập tới hệ quản trị CSDL SQL Server",
+      "answers": [
+        "Ứng dụng .NET",
+        "Tất cả đáp án đều đúng",
+        "Ứng dụng Java",
+        "Ứng dụng Visual Basic 6"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Phát biểu nào sau đây ĐÚNG về T-SQL?",
+      "answers": [
+        "Có thể sử dụng T-SQL để thao tác trên mọi hệ quản trị CSDL quan hệ",
+        "T-SQL là ngôn ngữ mở rộng của SQL chuẩn, cung cấp thêm các tính năng lập trình",
+        "T-SQL là tên gọi khác của ngôn ngữ SQL",
+        "Tất cả các đáp án đều sai"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Nếu quá trình thực thi một câu lệnh SQL xảy ra lỗi cú pháp. SQL Server sẽ thông báo lỗi đó bằng cách",
+      "answers": [
+        "Hiển thị đường màu xanh lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Message",
+        "Hiển thị đường màu xanh lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Systax Error",
+        "Hiển thị đường màu đỏ lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Message",
+        "Hiển thị đường màu đỏ lượn sóng gạch chân phần câu lệnh nhập sai và hiển thị một thông báo lỗi trong Tab Systax Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Các lỗi cú pháp nào sau đây thường gặp khi thực thi câu lệnh SQL A. Quên hoặc lựa chọn sai CSDL B. Viết sai tên bảng hoặc tên cột C. Viết sai từ khóa D. Bỏ sót dấu đóng ngoặc với một chuỗi ký tự.",
+      "answers": [
+        "B, C , D Đúng",
+        "Cả A, B, C, D đều đúng",
+        "A, D Đúng",
+        "A, B, C Đúng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Khi kết nối tới CSDL SQL Server, tại hộp thoại Connect to Server của SQL Management Studio, chế độ xác thực nào sau đây người dùng phải nhập User Name và Password",
+      "answers": [
+        "Windows Authentication",
+        "SQL Server Authentication",
+        "Windows Authentication và SQL Server Authentication",
+        "Tất cả đáp án đều sai"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Nên sử dụng kiểu dữ liệu nào sau đây để lưu chuỗi với độ dài cố định hỗ trợ UNICODE",
+      "answers": [
+        "Varchar",
+        "Char",
+        "Nchar",
+        "Nvarchar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Đâu là chú thích sử dụng trong T-SQL",
+      "answers": [
+        "*/ Chú thích dung */",
+        "--Chú thích đúng",
+        "/* Chú thích đúng /*",
+        "//Chú thích đúng"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

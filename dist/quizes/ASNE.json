@@ -1,0 +1,107 @@
+{
+  "id": "ASNE",
+  "name": "Lập trình ASP.NET",
+  "created": "2018-05-14",
+  "questions": [
+    {
+      "question": "Lập trình viên thường gán giá trị mặc định cho các điều khiển trong phương thức xử lý sự kiện ........... của trang",
+      "answers": [
+        "Prerender",
+        "Init",
+        "Load",
+        "Unload"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Bạn hãy cho biết định nghĩa nào sau đây là nói về ứng dụng web?",
+      "answers": [
+        "Là một ứng dụng client/server được truy cập thông qua trình duyệt Web trên mạng Internet hoặc intranet",
+        "Các phương án đều đúng",
+        "Là ứng dụng chỉ chạy trên một máy tính đơn",
+        "Là ứng dụng chỉ chạy trên môi trường mobile"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Để hiển thị dòng \"Hello World\" trên trang web, trong ASP.Net cần dùng lệnh nào?",
+      "answers": [
+        "Document.Write(\"Hello World\");",
+        "\"Hello World\"",
+        "Request.Write((\"Hello World\");",
+        "Response.Write(\"Hello World\");"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Phát biểu nào sau đây đúng về ASP.NET?",
+      "answers": [
+        "ASP.NET là mô hình lập trình hướng cấu trúc",
+        "ASP.NET là mô hình lập trình hướng sự kiện",
+        "ASP.NET là mô hình lập trình hướng thành phần",
+        "ASP.NET là mô hình lập trình hướng đối tượng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Khi chạy một ứng dụng ASP.NET, nếu ngoại lệ xảy ra nhưng không được bắt và xử lý, ứng dụng sẽ chuyển sang chế độ ngắt và hộp thoại ............ sẽ hiển thị.",
+      "answers": [
+        "Exception Assistant",
+        "Exception Help",
+        "Các phương án đều sai",
+        "Exception"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Theo bạn, câu nào sau đây là sai khi nói về web động?",
+      "answers": [
+        "Viết hoàn toàn bằng ngôn ngữ HTML",
+        "Có tương tác với người dùng, nội dung của trang hiển thị khác nhau đáp ứng các sự kiện.",
+        "Có thể dùng để hiển thị và cung cấp thông tin",
+        "Lưu dữ liệu trong cơ sở dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Phím tắt nào sau đây dùng để bắt đầu chạy ứng dụng dưới chế độ gỡ lỗi?",
+      "answers": [
+        "F9",
+        "F5",
+        "F10",
+        "F11"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Lớp nào sau đây được ASP.NET cung cấp để duy trì các thông tin trao đổi giữa Client và Server?",
+      "answers": [
+        "HttpResponse",
+        "Các phương án đều đúng",
+        "HttpServerUtility",
+        "HttpRequest"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Theo bạn, sự kiện nào sau đây được xem là sự kiện tự động kích hoạt?",
+      "answers": [
+        "Tải trang (Page_load)",
+        "Thay đổi giá trị ở TextBox (changeText)",
+        "Nhấn chuột vào một nút (button_click)",
+        "Đóng cửa sổ trình duyệt (close window)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Những điều khiển nào sau đây thuộc về loại List Control?",
+      "answers": [
+        "DropDownList, ListBox, RadioButtonList, CheckBoxList, BulletedList",
+        "ComboboxList, ListBox, HyperLinkList, CheckBoxList, BulletedList",
+        "ComboboxList, ListBox, RadioButtonList, CheckBoxList, BulletedList",
+        "DropdownList, ButtonList , RadioButtonList, CheckBoxList, ListBox"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
