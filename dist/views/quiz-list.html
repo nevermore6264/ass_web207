@@ -22,11 +22,11 @@
 </form>
 
 
-<ul class="quizes" style="list-style-type: none">
-    <li ng-repeat="quiz in quizes | filter:query | orderBy:orderProp" class="well">
+<div class="quizes">
+    <div ng-repeat="quiz in quizes | filter:query | orderBy:orderProp" class="well col-lg-6">
         <a href="#/quiz/{{quiz.id}}">{{quiz.name}}</a>
         <span style="text-align: right"
               class="quiz-list-date muted">Created {{quiz.created.format('MMM D, YYYY')}}</span>
         <p ng-bind-html-unsafe="quiz.snippet"></p>
-    </li>
-</ul>
+    </div>
+</div>

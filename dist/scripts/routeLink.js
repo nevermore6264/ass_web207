@@ -1,6 +1,6 @@
 'use strict';
 
-var quizApp = angular.module('angularQuizcatApp', ['quizcatServices']);
+var quizApp = angular.module('angularQuizcatApp', ['quizcatServices', 'ngRoute', 'ngCookies']);
 quizApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
         .when('/quizes', {

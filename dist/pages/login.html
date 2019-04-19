@@ -7,11 +7,11 @@
                 <h3 class="text-center text-info">Login</h3>
                 <div class="form-group">
                     <label for="username" class="text-info">Email:</label><br>
-                    <input type="text" name="username" id="username" class="form-control">
+                    <input type="text" name="username" id="username" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="password" class="text-info">Password:</label><br>
-                    <input type="text" name="password" id="password" class="form-control">
+                    <input type="text" name="password" id="password" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="remember-me" class="text-info"><span>Remember me</span> <span><input
@@ -32,20 +32,11 @@
         var password = document.getElementById('password').value;
 
         // Bước 2: Kiểm tra dữ liệu hợp lệ hay không
-        if (username == '') {
-            username.focus();
-            alert('username is invalid');
-        } else if (password == '') {
-            alert('password is invalid');
+        if (username === "teonv" && password === "iloveyou" || username === "pheonv" && password === "iloveyou" || username === "nopt" && password === "iloveyou") {
+            return true;
         } else {
-            if(username === "admin" && password === "admin"){
-                return true;
-            }else{
-                alert('Login fail');
-            }
-
+            alert('Login fail');
         }
-
         return false;
     }
 </script>

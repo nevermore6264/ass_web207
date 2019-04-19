@@ -98,3 +98,8 @@ input{
         top: -7px;
     }
 }
+
+footer{
+    position: absolute;
+    bottom: 0px;
+}
